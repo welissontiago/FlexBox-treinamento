@@ -1,61 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="superinfo-bg">
-      <div class="superinfo">
-        <p>Seg / Sex - 08:00 às 18:00</p>
-        <a href="tel:+552199999999">+55 21 9999-9999</a>
-        <p>Av. Ali Perto, 330, Botafogo - RJ</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="superinfo-bg">
+    <div class="superinfo">
+      <p>Seg / Sex - 08:00 às 18:00</p>
+      <a href="tel:+552199999999">+55 21 9999-9999</a>
+      <p>Av. Ali Perto, 330, Botafogo - RJ</p>
+    </div>
+  </div>
+  <header>
+    <div class="menu">
+      <div class="logo">
+        <h1>FlexBlog</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="titulo">Nosso valores e <br />Propriedades de CSS</h1>
+
+  <main>
+    <h2 class="titulo-h2">Sobre</h2>
+    <div class="sobre-flex">
+      <div class="sobre-textos">
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão das condições
+          inegavelmente apropriadas objetivos.
+        </p>
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão das condições
+          inegavelmente apropriadas objetivos.
+        </p>
+      </div>
+      <img src="../img/sobre1.jpg" alt="sobre1" />
+      <img src="../img/sobre2.jpg" alt="sobre2" />
+    </div>
+  </main>
+
+  <section class="Produtos" aria-label="Produtos">
+    <h2 class="titulo-h2">Produtos</h2>
+    <div class="produtos-container">
+      <div class="purples">
+        <h3>Purple</h3>
+        <img src="../img/produtos1.jpg" alt="purpleProduct">
+      </div>
+      <div class="pinks">
+        <h3>Pink</h3>
+        <img src="../img/produtos2.jpg" alt="pinkProduct">
+      </div>
+      <div class="blues">
+        <h3>Blue</h3>
+        <img src="../img/produtos3.jpg" alt="blueProduct">
       </div>
     </div>
-    <header>
-      <div class="menu">
-        <div class="logo">
-          <h1>FlexBlog</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+  </section>
 
-    <h1 class="titulo">Nosso valores e <br />Propriedades de CSS</h1>
-
-    <main>
-      <h2>Sobre</h2>
-      <div class="sobre-flex">
-        <div class="sobre-textos">
-          <p>
-            O que temos que ter sempre em mente é que a determinação clara de
-            objetivos afeta positivamente a correta previsão das condições
-            inegavelmente apropriadas objetivos.
-          </p>
-          <p>
-            O que temos que ter sempre em mente é que a determinação clara de
-            objetivos afeta positivamente a correta previsão das condições
-            inegavelmente apropriadas objetivos.
-          </p>
-        </div>
-        <img src="../img/sobre1.jpg" alt="sobre1" />
-        <img src="../img/sobre2.jpg" alt="sobre2" />
+  <section class="planos" aria-label="planos">
+    <div class="planos-container">
+      <div class="background-planos">
+        <h3>Cobre</h3>
+        <h4><span>R$</span>19</h4>
+        <ul>
+          <li>
+            <p>Planos Ilimitados</p>
+          </li>
+          <li>
+            <p>Acesso Restrito</p>
+          </li>
+          <li>
+            <p>Conteúdo Secreto</p>
+          </li>
+          <li>
+            <p>Suporte 24h</p>
+          </li>
+        </ul>
+        <a href="./index.html">COMPRAR</a>
       </div>
-    </main>
-  </body>
+      <div class="background-planos">
+        <h3>Prata</h3>
+        <h4><span>R$</span>39</h4>
+        <ul>
+          <li>
+            <p>Planos Ilimitados</p>
+          </li>
+          <li>
+            <p>Acesso Restrito</p>
+          </li>
+          <li>
+            <p>Conteúdo Secreto</p>
+          </li>
+          <li>
+            <p>Suporte 24h</p>
+          </li>
+          <li>
+            <p>Compra exclusiva</p>
+          </li>
+        </ul>
+        <a href="./index.html">COMPRAR</a>
+      </div>
+      <div class="background-planos">
+        <h3>Ouro</h3>
+        <h4><span>R$</span>79</h4>
+        <ul>
+          <li>
+            <p>Planos Ilimitados</p>
+          </li>
+          <li>
+            <p>Acesso Restrito</p>
+          </li>
+          <li>
+            <p>Conteúdo Secreto</p>
+          </li>
+          <li>
+            <p>Suporte 24h</p>
+          </li>
+          <li>
+            <p>Compra exclusiva</p>
+          </li>
+          <li>
+            <p>Download dos Itens</p>
+          </li>
+        </ul>
+        <a href="./index.html">COMPRAR</a>
+      </div>
+    </div>
+  </section>
+
+  <article>
+    <div class="article-container">
+      <div class="articlePurple">
+        <div class="Inteligente">
+          <h1>Inteligente</h1>
+          <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+        <div class="Compacto">
+          <h1>Compacto</h1>
+          <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+        </div>
+      </div>
+      <div class="articlePink">
+        <div class="Econômico">
+          <h1>Econômico</h1>
+          <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+        <div class="Transparente">
+          <h1>Transparente</h1>
+          <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+      </div>
+      <div class="articleBlue">
+        <div class="Opaco">
+          <h1>Opaco</h1>
+          <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+        </div>
+        <div class="Sustentavel">
+          <h1>Sustentável</h1>
+          <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <h2>Newsletter</h2>
+        <p>assine e fique por dentro <br>das novidades</p>
+      </div>
+      <div class="footer-email">
+        <input type="email" id="email_usuario" name="email_usuario" placeholder="seu e-mail">
+        <button type="submit">Assinar</button>
+      </div>
+    </div>
+    <h3>FlexBlog © Todos os direitos reservados.</h3>
+  </footer>
+
+</body>
+
 </html>
